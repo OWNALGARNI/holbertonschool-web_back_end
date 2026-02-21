@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""This module defines variables with specific values using type annotations."""
+"""This module defines variables
+with specific values using type annotations."""
 
 a: int = 1
 pi: float = 3.14
