@@ -3,7 +3,7 @@ export default class Airport {
         this._name = name;
         this._code = code;
     }
-    [Symbol.toStringTag](){
+    get [Symbol.toStringTag](){
         return this._code;
     }
 }
